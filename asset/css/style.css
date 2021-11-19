@@ -360,7 +360,8 @@ iframe {
     display: flex;
     width: 100%;
     flex-wrap: wrap;
-    justify-content: start;
+    justify-content: space-between;
+
 }
 .message-image {
     flex-basis: 35%;
@@ -541,8 +542,8 @@ iframe {
 }
 
 .footer-des>p {
-    font-size: 18px;
     color: #243C6E;
+    margin-bottom: 15px;
 }
 
 .pay-social {
@@ -805,7 +806,10 @@ iframe {
         padding: 30px 0px 30px 0px;
         color: #888888;
     }
-   
+    .footer-bottom > p {
+        color: #ffffff;
+        font-size: 13px;
+    }
    
     
    
@@ -1031,6 +1035,10 @@ iframe {
     }
     .footer-social-link {
         width: 100%;
+    }
+    .footer-bottom > p {
+        color: #ffffff;
+        font-size: 13px;
     }
     
 }
@@ -1316,6 +1324,10 @@ iframe {
     }
     .footer-social-link {
         width: 100%;
+    }
+    .footer-bottom > p {
+        color: #ffffff;
+        font-size: 12px;
     }
 }
 
