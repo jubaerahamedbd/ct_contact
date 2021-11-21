@@ -16,6 +16,7 @@
     margin: 30px 30px;
     flex-basis: 1250px;
 }
+
 .content-container-footer {
     display: flex;
     justify-content: center;
@@ -23,10 +24,11 @@
 }
 
 .flex-container-footer {
-    margin: 30px 30px 0px 30px;
+    margin: 30px 0px 0px 0px;
     flex-basis: 1250px;
     flex-wrap: wrap;
 }
+
 .footer-down-content-container {
     display: flex;
     justify-content: center;
@@ -35,6 +37,7 @@
 .footer-down-flex-container {
     flex-basis: 1250px;
 }
+
 /* header section */
 nav {
     display: flex;
@@ -58,6 +61,8 @@ nav {
 
 .navigation {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .navigation-links>ul {
@@ -67,7 +72,7 @@ nav {
 }
 
 .navigation-links>ul>li {
-    margin: 0px 5px;
+    margin: 0px 12px;
 
 }
 
@@ -151,12 +156,12 @@ nav {
 
 .inner-building {
     position: relative;
-    top: 2px;
+    top: 3px;
 }
 
 .outter-building {
     position: absolute;
-    top: 14px;
+    top: 13.2px;
     left: 11px;
 }
 
@@ -204,7 +209,7 @@ img.circle-img {
 }
 
 .contant-details {
-    margin-right: 5px;
+    margin-right: 20px;
     display: flex;
 }
 
@@ -223,7 +228,6 @@ img.circle-img {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    align-items: center;
     margin-top: 40px;
 }
 
@@ -232,12 +236,12 @@ img.circle-img {
     width: 100%;
     flex-basis: 32%;
     display: flex;
-    height: 341px;
+    justify-content: center;
     align-items: center;
     border-radius: 15px;
     border: 1px solid #F2F2F2;
     box-shadow: 9px 9px 20px #DFDFDF;
-    padding: 50px 31px;
+    padding: 40px;
 }
 
 .container-item-map {
@@ -247,14 +251,12 @@ img.circle-img {
 iframe {
     width: 100%;
     border-radius: 15px;
-    height: 341px;
 }
 
 .contact>h2 {
     font-size: 25px;
     color: #4F4F4F;
     font-weight: 400;
-    line-height: 16px;
 }
 
 .map-contant-info {
@@ -285,7 +287,7 @@ iframe {
     justify-content: flex-start;
 }
 
-.social-link>a>img {
+.social-link>a {
     margin-right: 20px;
     width: 41px;
 }
@@ -343,15 +345,10 @@ iframe {
     box-shadow: 9px 9px 20px #DFDFDF;
 }
 
-.main-content-left>img {
-    width: 100%;
-    height: 100%;
-    border-radius: 12px 0px 0px 12px;
-}
-
 .main-content-left {
     flex-basis: 56%;
-
+    width: 100%;
+    border-radius: 12px 0px 0px 12px;
 }
 
 .main-content-right {
@@ -359,7 +356,8 @@ iframe {
     display: flex;
     flex-direction: column;
     color: #808080;
-    padding: 38px 15px 38px 0px;
+    justify-content: center;
+    padding: 30px 10px;
 }
 
 .main-contant-info {
@@ -394,6 +392,25 @@ iframe {
     margin-right: 8px;
 }
 
+.main-contant-details-bottom {
+    margin-top: 15px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.main-contant-details-bottom>span {
+    font-weight: 400;
+    font-size: 15px;
+    color: #4f4f4f;
+    line-height: 18px;
+}
+
+.main-contant-details-bottom>img {
+    margin-right: 8px;
+}
+
 /* branch section */
 .branch-section {
     display: flex;
@@ -403,7 +420,7 @@ iframe {
 
 .branch-content {
     border: 1px solid #f2f2f2;
-    padding: 38px 29px;
+    padding: 30px;
     color: #808080;
     border-radius: 12px;
     flex-basis: 30%;
@@ -443,6 +460,26 @@ iframe {
 
 }
 
+.branch-contant-details-bottom {
+    margin-top: 15px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.branch-contant-details-bottom>img {
+    margin-right: 8px;
+
+}
+
+.branch-contant-details-bottom>span {
+    font-size: 15px;
+    line-height: 18px;
+    color: #4f4f4f;
+
+}
+
 /* message section */
 .message {
     display: flex;
@@ -450,24 +487,30 @@ iframe {
     flex-wrap: wrap;
     justify-content: space-between;
     border: 1px solid #f2f2f2;
-
+    border-radius: 12px;
 }
 
 .message-image {
     flex-basis: 40%;
+    width: 100%;
 }
 
 .message-image>img {
     width: 100%;
-    height: 100%;
 }
+
 .message-title {
     color: #4f4f4f;
 }
+
 .message-from {
     flex-basis: 58%;
     color: #888888;
-    padding: 61px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+    padding: 30px;
 }
 
 .message-from>p {
@@ -481,10 +524,15 @@ iframe {
     margin: 8px 0px 12px 0px;
     border-radius: 3px;
     border: 0.5px solid #C0C0C0;
+    padding: 0px 10px;
+    font-size: 17px;
+    color: #484545;
 }
+
 .form-label {
     color: #373737;
 }
+
 .message-from>form>textarea {
     width: 100%;
     resize: none;
@@ -492,9 +540,12 @@ iframe {
     margin: 8px 0px 12px 0px;
     border-radius: 3px;
     border: 0.5px solid #C0C0C0;
+    padding: 6px 10px;
+    font-size: 17px;
+    color: #484545;
 }
 
-.message-from > form > button {
+.message-from>form>button {
     width: 45%;
     border: none;
     height: 50px;
@@ -503,7 +554,9 @@ iframe {
     font-weight: bold;
     border-radius: 4px;
     max-width: 250px;
+    cursor: pointer;
 }
+
 .save-button {
     margin-left: 18px;
     background-color: #243c6e !important;
@@ -517,12 +570,11 @@ iframe {
     margin-top: 85px;
     background-image: url("../img/Rectangle1263.png");
     width: 100%;
-    height: 300px;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 25px;
 }
- 
+
 .newsletter-content {
     margin: 0px 20px;
     display: flex;
@@ -532,21 +584,19 @@ iframe {
 }
 
 .boy-image {
-    flex-basis: 30%;
+    flex-basis: 25%;
     left: -8px;
     position: relative;
 }
 
 .boy-image-inner {
-    top: -100px;
+    top: -75px;
     position: relative;
 }
 
 .text-part {
-    flex-basis: 61%;
+    flex-basis: 68%;
     position: relative;
-    top: -25px;
-    margin-left: 20px;
 }
 
 .text-part>h2 {
@@ -582,9 +632,11 @@ iframe {
     background-color: transparent;
     border-bottom: 1px solid white;
 }
+
 .newsletter-input:focus {
     outline: none;
 }
+
 .newsletter-buttton {
     position: absolute;
     right: 20%;
@@ -592,7 +644,9 @@ iframe {
     padding: 6px 21px;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
 }
+
 .newsletter-buttton>i {
     margin-right: 6px;
     color: #4285F4;
@@ -605,7 +659,10 @@ iframe {
     font-size: 15px;
     color: #ffffff;
 }
-   
+
+#newscheck {
+    cursor: pointer;
+}
 
 
 
@@ -623,7 +680,7 @@ iframe {
     text-align: center;
 }
 
-.learning-today > h1 {
+.learning-today>h1 {
     text-transform: uppercase;
     line-height: 45px;
     margin-top: 50px !important;
@@ -631,7 +688,7 @@ iframe {
     font-size: 35px;
 }
 
-.learning-today > p {
+.learning-today>p {
     margin-bottom: 46px;
     margin-top: 8px;
     font-size: 15px;
@@ -657,12 +714,13 @@ iframe {
 }
 
 .footer-link>div>a {
-    margin: 3px 0px;
+    margin: 7px 0px;
     display: flex;
     text-decoration: none;
     color: #243C6E;
-
+    font-size: 14px;
 }
+
 .footer-link>div>a:hover {
     text-decoration: underline;
 }
@@ -677,17 +735,30 @@ iframe {
 }
 
 .pay-social {
+    margin-bottom: 20px;
     display: flex;
     color: #243C6E;
-    margin-top: 40px;
+    justify-content: space-between;
 }
 
 .payroll {
-    width: 66.6%;
+    width: 60%;
 }
 
 .footer-social-link {
-    width: 33.3%;
+    width: 35%;
+}
+
+.payroll>h3 {
+    font-size: 17px;
+}
+
+.payment-img>img {
+    width: 100%;
+}
+
+.footer-social-link>h3 {
+    font-size: 17px;
 }
 
 .footer-social-link>a>i {
@@ -695,38 +766,42 @@ iframe {
     color: #ffffff;
     margin-right: 5px;
     background-color: #4f4f4f;
-    padding: 15px;
     border-radius: 24px;
 }
 
 .footer-social-link>a>i.fab.fa-facebook-f {
-    padding: 15px 18px;
+    padding: 6px 10px;
     background-color: #2D9CDB;
 }
 
 .footer-social-link>a>i.fab.fa-linkedin-in {
+    padding: 6px 8px;
     background-color: #007AB9;
 }
 
 .footer-social-link>a>i.fab.fa-twitter {
     background-color: #55ACEE;
+    padding: 6px 6px;
 }
 
 .footer-bottom {
     padding: 5px 30px;
     background-color: #243C6E;
 }
+
 .footer-text {
     display: flex;
     justify-content: space-between;
-    padding: 0px 30px;
+    padding: 10px 0px;
 }
+
 .footer-text>p {
     color: #ffffff;
+    font-size: 15px;
 }
 
 .footer-flex-container {
-    padding: 30px 30px;
+    padding: 0px 30px;
     flex-basis: 1250px;
     display: flex;
     flex-wrap: wrap;
@@ -782,18 +857,32 @@ iframe {
         align-items: center;
     }
 
-    .contact>h2 {
-        font-size: 21px;
-    }
 
     .container-item {
         flex-basis: 33%;
-
+        margin-right: 19px;
+        flex-grow: 1;
     }
 
     .container-item-map {
-        flex-basis: 61%;
+        flex-basis: 58%;
 
+    }
+
+    .boy-image {
+        flex-basis: 25%;
+        left: -8px;
+        position: relative;
+    }
+
+    .boy-image-inner {
+        top: -75px;
+        position: relative;
+    }
+
+    .text-part {
+        flex-basis: 64%;
+        position: relative;
     }
 
 }
@@ -846,53 +935,69 @@ iframe {
 
 
 
+
+
+    .newsletter {
+        margin-top: 85px;
+        background-image: url("../img/Rectangle1263.png");
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 25px;
+    }
+
+    .newsletter-content {
+        margin: 0px 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+
     .boy-image {
+        display: flex;
+        justify-content: center;
+        left: -8px;
         flex-basis: 100%;
+        position: relative;
     }
 
     .boy-image-inner {
-        top: -60px;
+        top: -75px;
+        position: relative;
     }
 
     .text-part {
-        margin-left: 0px;
+        padding-bottom: 50px;
         flex-basis: 100%;
         position: relative;
     }
 
 
-    .newsletter {
-        height: 550px;
-        margin-top: 40px;
-    }
 
-    .newsletter-content {
-        margin: 0px 20px;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-    }
+
     .newsletter-input {
         width: 100%;
     }
+
     .newsletter-buttton {
         position: absolute;
         right: 0%;
-        bottom: 25px;
+        bottom: 35%;
         padding: 6px 21px;
         border: none;
         border-radius: 5px;
     }
+
     .container-item {
+        margin-right: 0px;
         flex-basis: 100%;
         justify-content: flex-start;
         align-items: center;
         border-radius: 15px;
         border: 1px solid #F2F2F2;
         box-shadow: 9px 9px 20px #DFDFDF;
-        margin-bottom: 15px;
+        margin-bottom: 60px;
     }
 
     .container-item-map {
@@ -936,6 +1041,16 @@ iframe {
         background-color: #55ACEE;
     }
 
+    .main-details>.title {
+        font-size: 36px;
+
+    }
+
+    .title-des {
+        font-size: 17px;
+
+    }
+
     /* team section */
     .main-content-left {
         flex-basis: 100%;
@@ -948,18 +1063,17 @@ iframe {
         flex-direction: column;
         justify-content: center;
         color: #808080;
-        padding: 29px;
+        padding: 30px 30px;
     }
 
     .main-content-left>img {
         width: 100%;
-        height: 100%;
         border-radius: 12px 12px 0px 0px;
     }
 
     /* branch section */
     .branch-content {
-        margin: 10px 0px;
+        margin: 30px 0px;
         flex-basis: 100%;
         padding: 40px 30px;
 
@@ -986,6 +1100,16 @@ iframe {
         font-size: 13px;
     }
 
+    .payroll {
+        width: 60%;
+    }
+
+    .footer-social-link {
+        width: 32%;
+    }
+    .learning-section {
+        margin-top: 30px;
+    }
 
 
 }
@@ -1069,58 +1193,75 @@ iframe {
 
 
 
-    
+
+    .newsletter {
+        margin-top: 85px;
+        background-image: url("../img/Rectangle1263.png");
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 25px;
+    }
+
+    .newsletter-content {
+        margin: 0px 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+
     .boy-image {
+        display: flex;
+        justify-content: center;
+        left: -8px;
         flex-basis: 100%;
+        position: relative;
     }
 
     .boy-image-inner {
-        top: -60px;
+        top: -75px;
+        position: relative;
+    }
+
+    .text-part>h2 {
+        font-size: 22px;
+    }
+
+    .newsletter-label {
+
+        font-size: 16px;
+
+    }
+
+    .newsletter-check-text {
+
+        font-size: 13px;
+
     }
 
     .text-part {
-        margin-left: 0px;
+        padding-bottom: 50px;
         flex-basis: 100%;
         position: relative;
-        padding: 0px 25px;
     }
-    
 
-    .newsletter {
-        margin-top: 40px;
-        height: 550px;
-    }
-    .text-part {
-        margin-left: 0px;
-        flex-basis: 100%;
-        position: relative;
-    }
-    .newsletter-content {
-        margin: 0px 10px;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-    }
+
+
+
     .newsletter-input {
         width: 100%;
     }
-    .newsletter-check-text {
-        position: relative;
-        margin-left: 8px;
-        font-weight: 300;
-        font-size: 13px;
-        color: #ffffff;
-    }
+
     .newsletter-buttton {
         position: absolute;
-        right: 6%;
-        bottom: 25px;
+        right: 0%;
+        bottom: 35%;
         padding: 6px 21px;
         border: none;
         border-radius: 5px;
     }
+
     .container-item {
         flex-basis: 100%;
         justify-content: flex-start;
@@ -1128,7 +1269,8 @@ iframe {
         border-radius: 15px;
         border: 1px solid #F2F2F2;
         box-shadow: 9px 9px 20px #DFDFDF;
-        margin-bottom: 15px;
+        margin-bottom: 50px;
+        margin-right: 0px;
     }
 
     .container-item-map {
@@ -1172,6 +1314,16 @@ iframe {
         background-color: #55ACEE;
     }
 
+    .main-details>.title {
+        font-size: 34px;
+
+    }
+
+    .title-des {
+        font-size: 16px;
+
+    }
+
     /* team section */
     .main-content-left {
         flex-basis: 100%;
@@ -1189,13 +1341,12 @@ iframe {
 
     .main-content-left>img {
         width: 100%;
-        height: 100%;
         border-radius: 12px 12px 0px 0px;
     }
 
     /* branch section */
     .branch-content {
-        margin: 10px 0px;
+        margin: 30px 0px;
         flex-basis: 100%;
         padding: 40px 30px;
 
@@ -1219,14 +1370,16 @@ iframe {
 
 
     /* learning section */
-    .learning-today > h1 {
+    .learning-today>h1 {
         text-transform: uppercase;
         line-height: 45px;
         margin-top: 18px !important;
         font-size: 26px;
     }
-
-    .learning-today > p {
+    .learning-section {
+        margin-top: 30px;
+    }
+    .learning-today>p {
         margin-bottom: 28px;
         margin-top: 0px;
         font-size: 13px;
@@ -1256,7 +1409,7 @@ iframe {
         width: 100%;
     }
 
-    .footer-bottom>p {
+    .footer-text>p {
         color: #ffffff;
         font-size: 13px;
     }
@@ -1369,6 +1522,16 @@ iframe {
 
     }
 
+    .main-details>.title {
+        font-size: 30px;
+
+    }
+
+    .title-des {
+        font-size: 15px;
+
+    }
+
     .contant-info {
         flex-direction: column;
     }
@@ -1377,56 +1540,61 @@ iframe {
         margin: 5px 0px;
     }
 
-    .boy-image {
-        flex-basis: 100%;
-        left: -24px;
-    }
-
-    .boy-image-inner {
-        width: 200px;
-    }
-
-    .text-part {
-        position: relative;
-        top: -85px;
-        flex-basis: 100%;
-    }
     .newsletter {
         margin-top: 85px;
-        height: 520px;
-    }
-
-    .text-part>h2 {
-        color: #ffffff;
-        font-weight: 700;
-        font-style: normal;
-        font-size: 22px;
-        line-height: 30px;
-    }
-
-    .newsletter-input {
-        width: 90%;
-    }
-    .newsletter-label {
-        
-        font-size: 15px;
-       
+        background-image: url("../img/Rectangle1263.png");
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 25px;
     }
 
     .newsletter-content {
-        margin: 0px 5px;
+        margin: 0px 30px;
         display: flex;
-        flex-direction: column;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
+    }
+
+    .boy-image {
+        display: flex;
+        justify-content: center;
+        left: -8px;
+        flex-basis: 100%;
+        position: relative;
+    }
+
+    .boy-image-inner {
+        top: -75px;
+        position: relative;
+    }
+
+    .text-part {
+        padding-bottom: 50px;
+        flex-basis: 100%;
+        position: relative;
+    }
+
+
+    .text-part>h2 {
+        font-size: 18px;
+        margin: 0;
+    }
+
+    .newsletter-label {
+        font-size: 15px !important;
+    }
+
+    .newsletter-input {
+        width: 100%;
     }
 
     .newsletter-buttton {
         position: absolute;
-        right: 10%;
-        bottom: 42px;
-        padding: 5px 8px;
+        right: 0%;
+        bottom: 37%;
+        padding: 6px 15px;
         border: none;
         border-radius: 5px;
     }
@@ -1434,7 +1602,7 @@ iframe {
     .newsletter-check-text {
         margin-left: 3px;
         font-weight: 300;
-        font-size: 16px;
+        font-size: 10px;
         color: #ffffff;
     }
 
@@ -1452,7 +1620,7 @@ iframe {
 
     .container-item-map {
         flex-basis: 100%;
-        margin-top: 15px;
+        margin-top: 30px;
     }
 
     .map-contant-details>img {
@@ -1508,13 +1676,12 @@ iframe {
 
     .main-content-left>img {
         width: 100%;
-        height: 100%;
         border-radius: 12px 12px 0px 0px;
     }
 
     /* branch section */
     .branch-content {
-        margin: 10px 0px;
+        margin: 25px 0px;
         flex-basis: 100%;
         padding: 40px 30px;
 
@@ -1535,20 +1702,24 @@ iframe {
         color: #888888;
         padding: 40px 29px;
     }
+
     .save-button {
-    margin-left: 12px;
-}
+        margin-left: 12px;
+    }
 
 
     /* learning section */
-    .learning-today > h1 {
+    .learning-today>h1 {
         text-transform: uppercase;
         line-height: 45px;
         margin-top: 18px !important;
         font-size: 23px;
     }
+    .learning-section {
+        margin-top: 15px;
+    }
 
-    .learning-today > p {
+    .learning-today>p {
         margin-bottom: 28px;
         margin-top: 0px;
         font-size: 12px;
@@ -1578,7 +1749,7 @@ iframe {
         width: 100%;
     }
 
-    .footer-bottom>p {
+    .footer-text>p {
         color: #ffffff;
         font-size: 12px;
     }
