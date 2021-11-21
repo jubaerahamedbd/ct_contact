@@ -142,7 +142,7 @@ nav {
 /* contact section */
 .page-content {
 
-    padding: 15px 80px 0px 80px !important;
+    padding: 15px 80px !important;
     background-color: #F2C94C;
     display: flex;
     flex-wrap: wrap;
@@ -156,7 +156,7 @@ nav {
 
 .inner-building {
     position: relative;
-    top: 3px;
+    top: 18px;
 }
 
 .outter-building {
@@ -180,7 +180,6 @@ img.circle-img {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding-bottom: 30px;
 
 }
 
@@ -847,7 +846,7 @@ iframe {
     }
 
     .page-content {
-        padding: 35px 38px 0px 38px !important;
+        padding: 15px 38px !important;
     }
 
     .page-content-right {
@@ -856,7 +855,6 @@ iframe {
         justify-content: flex-end;
         align-items: center;
     }
-
 
     .container-item {
         flex-basis: 33%;
@@ -929,12 +927,8 @@ iframe {
     }
 
     .page-content {
-        padding: 35px 38px 0px 38px !important;
+        padding: 15px 38px !important;
     }
-
-
-
-
 
 
     .newsletter {
@@ -1180,7 +1174,7 @@ iframe {
     }
 
     .page-content {
-        padding: 25px 20px 0px 20px !important;
+        padding: 15px 20px!important;
     }
 
     .contant-info {
@@ -1487,13 +1481,14 @@ iframe {
 
     img.circle-img {
         position: absolute;
-        top: 0;
+        top: 40px;
         width: 100px;
+        left: -32px;
     }
 
     .inner-building {
         position: relative;
-        top: 2px;
+        top: 28px;
     }
 
     .outter-building {
@@ -1503,7 +1498,7 @@ iframe {
     }
 
     .page-content {
-        padding: 25px 20px 0px 20px !important;
+        padding: 25px 20px!important;
     }
 
     .page-content-right {
@@ -1518,7 +1513,7 @@ iframe {
     }
 
     .page-content-left>h1 {
-        font-size: 50px;
+        font-size: 45px;
 
     }
 
